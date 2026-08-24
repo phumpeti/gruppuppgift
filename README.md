@@ -1,1 +1,3 @@
-# gruppuppgift kurs i testtekniker
+### Group task in testing
+
+First commit done, all provided files are uploaded. 
