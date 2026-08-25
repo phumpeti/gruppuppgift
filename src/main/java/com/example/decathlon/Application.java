@@ -3,6 +3,8 @@ package com.example.decathlon;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+// Karin skriver en kommentar
+
 @SpringBootApplication
 public class Application {
     public static void main(String[] args) {
