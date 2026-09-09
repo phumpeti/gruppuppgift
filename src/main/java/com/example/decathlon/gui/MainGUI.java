@@ -13,7 +13,7 @@ import com.example.decathlon.deca.*;
 
 
 public class MainGUI {
-
+    //test
     private JTextField nameField;
     private JTextField resultField;
     private JComboBox<String> disciplineBox;
