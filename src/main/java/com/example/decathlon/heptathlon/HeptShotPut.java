@@ -12,9 +12,11 @@ public class HeptShotPut {
 
 	public int calculateResult(double distance) {
 
-		if (distance < 5) {
+		// Ska vara 0 till 30 enl limits.pdf, var 5-100
+
+		if (distance < 0) {
 			throw new IllegalArgumentException("Value too low");
-		} else if (distance > 100) {
+		} else if (distance > 30) {
 			throw new IllegalArgumentException("Value too high");
 		}
 

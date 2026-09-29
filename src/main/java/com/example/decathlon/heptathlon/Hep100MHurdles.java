@@ -12,9 +12,11 @@ public class Hep100MHurdles {
 
 	public int calculateResult(double runningTime) {
 
-		if (runningTime < 5) {
+		// Limits.pdf anger 10 till 30 så bägge har ändrats, var 5-26.4
+
+		if (runningTime < 10) {
 			throw new IllegalArgumentException("Value too low");
-		} else if (runningTime > 26.4) {
+		} else if (runningTime > 30) {
 			throw new IllegalArgumentException("Value too high");
 		}
 

@@ -12,9 +12,11 @@ public class HeptHightJump {
 
 	public int calculateResult(double distance) {
 
-		if (distance < 75.7) {
+		// Limits.pdf anger 0 till 300, var 75.7-270
+
+		if (distance < 0) {
 			throw new IllegalArgumentException("Value too low");
-		} else if (distance > 270) {
+		} else if (distance > 300) {
 			throw new IllegalArgumentException("Value too high");
 		}
 

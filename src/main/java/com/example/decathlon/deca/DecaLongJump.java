@@ -12,7 +12,9 @@ public class DecaLongJump {
 
 	public int calculateResult(double distance) {
 
-		if (distance < 250) {
+		// Limits.pdf anger 0 till 1000 så den undre gränsen ändrades, var 250 - 1000
+
+		if (distance < 0) {
 			throw new IllegalArgumentException("Value too low");
 		} else if (distance > 1000) {
 			throw new IllegalArgumentException("Value too high");

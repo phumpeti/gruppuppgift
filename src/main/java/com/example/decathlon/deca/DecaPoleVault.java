@@ -12,7 +12,9 @@ public class DecaPoleVault {
 
 	public int calculateResult(double distance) {
 
-		if (distance < 2) {
+		// Limits.pdf anger 0 till 1000 så undre gräns har ändrats, var 2-1000
+
+		if (distance < 0) {
 			throw new IllegalArgumentException("Value too low");
 		} else if (distance > 1000) {
 			throw new IllegalArgumentException("Value too high");

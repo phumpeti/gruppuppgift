@@ -50,7 +50,7 @@ public class MainGUI {
     private static final Map<String, String> DISCIPLINE_UNITS = new LinkedHashMap<>();
     static {
         DISCIPLINE_UNITS.put("Decathlon 100m", "s");
-        DISCIPLINE_UNITS.put("Decathlon 400m", "s");ca
+        DISCIPLINE_UNITS.put("Decathlon 400m", "s");
         DISCIPLINE_UNITS.put("Decathlon 1500m", "min");
         DISCIPLINE_UNITS.put("Decathlon 110m Hurdles", "s");
         DISCIPLINE_UNITS.put("Decathlon Long Jump", "cm");

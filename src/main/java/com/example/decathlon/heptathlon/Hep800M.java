@@ -12,9 +12,11 @@ public class Hep800M {
 
 	public int calculateResult(double runningTime) {
 
+		// Limits.pdf anger 70 till 250, var 70-250.79
+
 		if (runningTime < 70) {
 			throw new IllegalArgumentException("Value too low");
-		} else if (runningTime > 250.79) {
+		} else if (runningTime > 250) {
 
 			throw new IllegalArgumentException("Value too high");
 		}

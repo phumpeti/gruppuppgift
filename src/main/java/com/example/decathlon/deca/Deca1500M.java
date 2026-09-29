@@ -7,14 +7,17 @@ public class Deca1500M {
 	private int score;
 	private double A = 0.03768;
 	private double B = 480;
-	private double C = 18.5;
+	// Den här var felaktigt angiven som 18.5
+	private double C = 1.85;
 	CalcTrackAndField calc = new CalcTrackAndField();
 
 	public int calculateResult(double runningTime) {
 
-		if (runningTime < 2) {
+		// Limits.pdf anger 150 till 400 så båda gränserna har ändrats, var 2 till 7
+
+		if (runningTime < 150) {
 			throw new IllegalArgumentException("Value too low");
-		} else if (runningTime > 7) {
+		} else if (runningTime > 400) {
 			throw new IllegalArgumentException("Value too high");
 		}
 
