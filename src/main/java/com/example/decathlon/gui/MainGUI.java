@@ -51,7 +51,7 @@ public class MainGUI {
     static {
         DISCIPLINE_UNITS.put("Decathlon 100m", "s");
         DISCIPLINE_UNITS.put("Decathlon 400m", "s");
-        DISCIPLINE_UNITS.put("Decathlon 1500m", "min");
+        DISCIPLINE_UNITS.put("Decathlon 1500m", "s");
         DISCIPLINE_UNITS.put("Decathlon 110m Hurdles", "s");
         DISCIPLINE_UNITS.put("Decathlon Long Jump", "cm");
         DISCIPLINE_UNITS.put("Decathlon High Jump", "cm");
@@ -62,7 +62,7 @@ public class MainGUI {
         DISCIPLINE_UNITS.put("Heptathlon 200m", "s");
         DISCIPLINE_UNITS.put("Heptathlon 800m", "s");
         DISCIPLINE_UNITS.put("Heptathlon 100m Hurdles", "s");
-        DISCIPLINE_UNITS.put("Heptathlon Long Jump", "m");
+        DISCIPLINE_UNITS.put("Heptathlon Long Jump", "cm");
         DISCIPLINE_UNITS.put("Heptathlon High Jump", "cm");
         DISCIPLINE_UNITS.put("Heptathlon Shot Put", "m");
         DISCIPLINE_UNITS.put("Heptathlon Javelin Throw", "m");

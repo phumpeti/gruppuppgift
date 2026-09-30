@@ -5,14 +5,13 @@ import com.example.decathlon.common.CalcTrackAndField;
 public class DecaLongJump {
 
 	private int score;
-	private double A = 0.13454;
+	// A var 0.13454
+	private double A = 0.14354;
 	private double B = 220;
 	private double C = 1.4;
 	CalcTrackAndField calc = new CalcTrackAndField();
 
 	public int calculateResult(double distance) {
-
-		// Limits.pdf anger 0 till 1000 så den undre gränsen ändrades, var 250 - 1000
 
 		if (distance < 0) {
 			throw new IllegalArgumentException("Value too low");

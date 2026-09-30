@@ -13,8 +13,6 @@ public class Deca1500M {
 
 	public int calculateResult(double runningTime) {
 
-		// Limits.pdf anger 150 till 400 så båda gränserna har ändrats, var 2 till 7
-
 		if (runningTime < 150) {
 			throw new IllegalArgumentException("Value too low");
 		} else if (runningTime > 400) {

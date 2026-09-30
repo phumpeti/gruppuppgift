@@ -12,8 +12,6 @@ public class HeptJavelinThrow {
 
 	public int calculateResult(double distance) {
 
-		// Limits.pdf anger 0 till 110, var 0-100
-
 		if (distance < 0) {
 			throw new IllegalArgumentException("Value too low");
 		} else if (distance > 110) {

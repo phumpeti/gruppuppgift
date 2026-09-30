@@ -12,8 +12,6 @@ public class Deca100M {
 
 	public int calculateResult(double runningTime) {
 
-		// Limits.pdf anger 5 till 20 dvs övre gräns har ändrats
-
 		if (runningTime < 5) {
 			throw new IllegalArgumentException("Value too low");
 		} else if (runningTime > 20) {

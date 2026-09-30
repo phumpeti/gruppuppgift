@@ -12,8 +12,6 @@ public class DecaDiscusThrow {
 
 	public int calculateResult(double distance) {
 
-		// Den här är korrekt.
-
 		if (distance < 0) {
 			throw new IllegalArgumentException("Value too low");
 		} else if (distance > 85) {

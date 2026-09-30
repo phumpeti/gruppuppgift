@@ -12,8 +12,6 @@ public class Deca110MHurdles {
 
 	public int calculateResult(double runningTime) {
 
-		// Limits.pdf anger 10 till 30 så övre gräns har ändrats
-
 		if (runningTime < 10) {
 			throw new IllegalArgumentException("Value too low");
 		} else if (runningTime > 30) {

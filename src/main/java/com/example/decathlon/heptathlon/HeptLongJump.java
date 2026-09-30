@@ -6,14 +6,12 @@ public class HeptLongJump {
 
 	private int score;
 	// Var A = 0.1888807 ska vara A = 0.188807 enl. limits.pdf
-	private double A = 0.1888807;
+	private double A = 0.188807;
 	private double B = 210;
 	private double C = 1.41;
 	CalcTrackAndField calc = new CalcTrackAndField();
 
 	public int calculateResult(double distance) {
-
-		// Ska vara 0 till 1000 enl limits.pdf, var 0-400
 
 		if (distance < 0) {
 			throw new IllegalArgumentException("Value too low");

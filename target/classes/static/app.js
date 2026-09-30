@@ -5,7 +5,7 @@ const msg = el('msg');
 const EVENTS = [
   { id: '100m', label: 'Decathlon 100m', unit: 's' },
   { id: 'deca110mHurdles', label: 'Decathlon 110m Hurdles', unit: 's' },
-  { id: 'decathlon1500m', label: 'Decathlon 1500m', unit: 'min' },
+  { id: 'decathlon1500m', label: 'Decathlon 1500m', unit: 's' },
   { id: '400m', label: 'Decathlon 400m', unit: 's' },
   { id: 'longJump', label: 'Decathlon Long Jump', unit: 'cm' },
   { id: 'decaHighJump', label: 'Decathlon High Jump', unit: 'cm' },
@@ -16,7 +16,7 @@ const EVENTS = [
   { id: 'hep200m', label: 'Heptathlon 200m', unit: 's' },
   { id: 'hep800m', label: 'Heptathlon 800m', unit: 's' },
   { id: 'hep100mHurdles', label: 'Heptathlon 100m Hurdles', unit: 's' },
-  { id: 'hepLongJump', label: 'Heptathlon Long Jump', unit: 'm' },
+  { id: 'hepLongJump', label: 'Heptathlon Long Jump', unit: 'cm' },
   { id: 'hepHighJump', label: 'Heptathlon High Jump', unit: 'cm' },
   { id: 'hepShotPut', label: 'Heptathlon Shot Put', unit: 'm' },
   { id: 'hepJavelinThrow', label: 'Heptathlon Javelin Throw', unit: 'm' }

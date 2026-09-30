@@ -12,8 +12,6 @@ public class DecaJavelinThrow {
 
 	public int calculateResult(double distance) {
 
-		// Limits.pdf anger 0 till 110 och den är korrekt.
-
 		if (distance < 0) {
 			throw new IllegalArgumentException("Value too low");
 		} else if (distance > 110) {

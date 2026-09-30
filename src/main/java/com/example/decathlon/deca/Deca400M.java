@@ -12,7 +12,6 @@ public class Deca400M {
 
 	public int calculateResult(double runningTime) {
 
-		// Limits.pdf anger 20 till 100 så inget har ändrats.
 
 		if (runningTime < 20) {
 			throw new IllegalArgumentException("Value too low");

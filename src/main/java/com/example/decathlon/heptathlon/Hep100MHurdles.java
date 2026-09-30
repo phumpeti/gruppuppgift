@@ -7,12 +7,11 @@ public class Hep100MHurdles {
 	private int score;
 	private double A = 9.23076;
 	private double B = 26.7;
-	private double C = 18.35;
+	// C var 18.35 och ska vara 1.835
+	private double C = 1.835;
 	CalcTrackAndField calc = new CalcTrackAndField();
 
 	public int calculateResult(double runningTime) {
-
-		// Limits.pdf anger 10 till 30 så bägge har ändrats, var 5-26.4
 
 		if (runningTime < 10) {
 			throw new IllegalArgumentException("Value too low");

@@ -12,8 +12,6 @@ public class Hep200M {
 
 	public int calculateResult(double runningTime) {
 
-		// Limits.pdf anger 20 till 100, var 14-42.08
-
 		if (runningTime < 20) {
 			throw new IllegalArgumentException("Value too low");
 		} else if (runningTime > 100) {
