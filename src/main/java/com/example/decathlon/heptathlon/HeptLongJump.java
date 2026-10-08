@@ -5,7 +5,7 @@ import com.example.decathlon.common.CalcTrackAndField;
 public class HeptLongJump {
 
 	private int score;
-	// Var A = 0.1888807 ska vara A = 0.188807 enl. limits.pdf
+	// Var A = 0.188807 ska vara A = 0.188807 enl. limits.pdf
 	private double A = 0.188807;
 	private double B = 210;
 	private double C = 1.41;

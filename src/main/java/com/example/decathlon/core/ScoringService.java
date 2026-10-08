@@ -17,7 +17,7 @@ public class ScoringService {
         Map<String, EventDef> m = new LinkedHashMap<>();
         m.put("100m",             new EventDef("100m",             Type.TRACK, 25.4347,   18.0,  1.81,  "s"));
         m.put("deca110mHurdles",  new EventDef("deca110mHurdles",  Type.TRACK, 5.74352,   28.5,  1.92,  "s"));
-        m.put("decathlon1500m",   new EventDef("decathlon1500m",   Type.TRACK, 0.03768,   480.0, 18.5,  "min"));
+        m.put("decathlon1500m",   new EventDef("decathlon1500m",   Type.TRACK, 0.03768,   480.0, 18.5,  "s"));
         m.put("400m",             new EventDef("400m",             Type.TRACK, 1.53775,   82.0,  1.81,  "s"));
         m.put("longJump",         new EventDef("longJump",         Type.FIELD, 0.14354,   220.0, 1.4,   "cm"));
         m.put("decaHighJump",     new EventDef("decaHighJump",     Type.FIELD, 0.8465,    75.0,  1.42,  "cm"));
@@ -28,7 +28,7 @@ public class ScoringService {
         m.put("hep200m",          new EventDef("hep200m",          Type.TRACK, 4.99087,   42.5,  1.81,  "s"));
         m.put("hep800m",          new EventDef("hep800m",          Type.TRACK, 0.11193,   254.0, 1.88,  "s"));
         m.put("hep100mHurdles",   new EventDef("hep100mHurdles",   Type.TRACK, 9.23076,   26.7,  18.35, "s"));
-        m.put("hepLongJump",      new EventDef("hepLongJump",      Type.FIELD, 0.1888807, 210.0, 1.41,  "m"));
+        m.put("hepLongJump",      new EventDef("hepLongJump",      Type.FIELD, 0.1888807, 210.0, 1.41,  "cm"));
         m.put("hepHighJump",      new EventDef("hepHighJump",      Type.FIELD, 1.84523,   75.0,  1.348, "cm"));
         m.put("hepShotPut",       new EventDef("hepShotPut",       Type.FIELD, 56.0211,   1.5,   1.05,  "m"));
         m.put("hepJavelinThrow",  new EventDef("hepJavelinThrow",  Type.FIELD, 15.9803,   3.8,   1.04,  "m"));
